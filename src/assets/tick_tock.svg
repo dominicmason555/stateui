@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="81.385002mm"
+   height="108.00042mm"
+   viewBox="0 0 81.385001 108.00042"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="tick_tock.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.4778115"
+     inkscape:cx="169.50741"
+     inkscape:cy="273.03888"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient9"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#c39bff;stop-opacity:1;"
+         offset="0.2623589"
+         id="stop9" />
+      <stop
+         style="stop-color:#9bf5ff;stop-opacity:1;"
+         offset="0.71002513"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#c39bff;stop-opacity:1;"
+         offset="0.24026532"
+         id="stop5" />
+      <stop
+         style="stop-color:#9bf5ff;stop-opacity:1;"
+         offset="0.74868816"
+         id="stop6" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5"
+       id="linearGradient6"
+       x1="70.469223"
+       y1="31.679693"
+       x2="70.137001"
+       y2="92.149078"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9"
+       id="linearGradient8"
+       x1="128.2794"
+       y1="19.939272"
+       x2="127.7257"
+       y2="81.153343"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="repeat" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="g4"
+     inkscape:label="TickTockTransition"
+     style="display:inline"
+     transform="translate(-59.298778,-2)">
+    <path
+       style="display:inline;fill:none;stroke:url(#linearGradient8);stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;marker-end:url(#Triangle)"
+       d="m 117.61558,20.501494 c 46.13722,27.113874 5.62982,56.076325 5.62982,56.076325"
+       id="path4"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="TockTickTransition"
+     style="display:inline"
+     transform="translate(-59.298778,-2)">
+    <path
+       style="display:inline;fill:none;stroke:url(#linearGradient6);stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;marker-start:url(#Triangle)"
+       d="M 76.806196,36.14012 C 41.805491,60.340602 71.711412,91.490012 82.287065,91.322808"
+       id="path3"
+       sodipodi:nodetypes="cc"
+       inkscape:label="path3" />
+  </g>
+  <g
+     inkscape:label="TickState"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(-59.298778,-2)">
+    <circle
+       style="fill:#c39bff;fill-opacity:1;stroke-width:0.182;stroke-dasharray:none"
+       id="path1"
+       cx="100"
+       cy="22"
+       r="20"
+       inkscape:label="TickCircle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="90.031006"
+       y="26.570776"
+       id="text1"
+       inkscape:label="TickLabel"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="stroke-width:0.264583"
+         x="90.031006"
+         y="26.570776">Tick</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="TockState"
+     transform="translate(-59.298778,-2)">
+    <circle
+       style="fill:#9bf5ff;fill-opacity:1;stroke-width:2;stroke-dasharray:none;stroke:#ff0000;stroke-opacity:1"
+       id="path1-5"
+       cx="100"
+       cy="90"
+       r="20"
+       inkscape:label="TockCircle" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="88.839508"
+       y="94.277115"
+       id="text1-3"
+       inkscape:label="TockLabel"><tspan
+         sodipodi:role="line"
+         id="tspan1-5"
+         style="stroke-width:0.264583"
+         x="88.839508"
+         y="94.277115">Tock</tspan></text>
+  </g>
+</svg>
