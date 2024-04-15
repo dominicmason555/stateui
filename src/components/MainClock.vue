@@ -25,15 +25,14 @@ export default {
   data() {
     return {
       time: 0,
-      running: false
+      running: false,
+      period: 500
     }
-  },
-  mounted() {
-    setInterval(this.update, 1000)
   },
   methods: {
     startClock() {
       this.running = true
+      setTimeout(this.update, this.period)
     },
     stopClock() {
       this.running = false
@@ -50,6 +49,7 @@ export default {
     update() {
       if (this.running) {
         this.stepClock()
+        setTimeout(this.update, this.period)
       }
     }
   }
